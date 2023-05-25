@@ -1,0 +1,16 @@
+[
+    {
+      "name": "erpnext",
+      "branch": "develop",
+      "upstream": "git@github.com:frappe/erpnext.git",
+      "url" : "https://github.com/frappe/erpnext"
+
+    },
+    {
+      "name": "hrms",
+      "branch": "develop",
+      "upstream": "git@github.com:frappe/hrms.git",
+      "url" : "https://github.com/frappe/hrms.git"
+    }
+  ]
+
