@@ -13,8 +13,8 @@
     {
       "name": "hrms",
       "branch": "version-14",
-      "upstream": "git@github.com:frappe/hrms.git",
-      "url" : "https://github.com/frappe/hrms.git"
+      "upstream": "git@github.com:vyogo/hrms.git",
+      "url" : "https://github.com/vyogo/hrms.git"
     }
   ]
 
