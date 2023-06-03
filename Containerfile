@@ -102,7 +102,7 @@ RUN if [ -n "${APPS_JSON_BASE64}" ]; then \
 USER frappe
 
 ARG FRAPPE_BRANCH=version-14
-ARG FRAPPE_PATH=https://github.com/frappe/frappe
+ARG FRAPPE_PATH=https://github.com/vyogotech/frappe
 RUN export APP_INSTALL_ARGS="" && \
   if [ -n "${APPS_JSON_BASE64}" ]; then \
     export APP_INSTALL_ARGS="--apps_path=/opt/frappe/apps.json"; \
