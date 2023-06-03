@@ -1,14 +1,18 @@
 [
-    {
+  {
+    "url": "https://github.com/frappe/payments",
+    "branch": "develop"
+  },
+  {
       "name": "erpnext",
-      "branch": "develop",
+      "branch": "version-14",
       "upstream": "git@github.com:frappe/erpnext.git",
       "url" : "https://github.com/frappe/erpnext"
 
     },
     {
       "name": "hrms",
-      "branch": "develop",
+      "branch": "version-14",
       "upstream": "git@github.com:frappe/hrms.git",
       "url" : "https://github.com/frappe/hrms.git"
     }

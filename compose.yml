@@ -60,6 +60,8 @@ services:
       MYSQL_ROOT_PASSWORD: admin
     volumes:
       - db-data:/var/lib/mysql
+    ports:
+      - "9999:3306"
 
   frontend:
     image: ${IMAGE_NAME}:${IMAGE_TAG}
